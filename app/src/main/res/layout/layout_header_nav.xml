@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/color_main"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="bottom"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:id="@+id/tv_my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Simple Bakery"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="14dp"
+        android:text="Fb: facebook.com/SimpleCake"
+        />
+</LinearLayout>

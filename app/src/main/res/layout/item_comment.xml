@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="10dp"
+    >
+    <RelativeLayout
+        android:elevation="5dp"
+        android:background="@color/color_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar_comment"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="8dp"
+            android:src="@drawable/default_user" />
+
+        <TextView
+            android:id="@+id/tv_name_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/img_avatar_comment"
+            android:text="Đoàn Ngọc Trình"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_day_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_user"
+
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/img_avatar_comment"
+            android:text="25-11-2022"
+            android:textStyle="italic" />
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tv_day_comment"
+         android:layout_toEndOf="@id/img_avatar_comment"
+         android:layout_marginTop="5dp"
+         android:orientation="horizontal"
+         android:id="@+id/ln_star"
+         >
+         <ImageView
+             android:id="@+id/first_start"
+             android:layout_width="13dp"
+             android:layout_height="18dp"
+             android:src="@drawable/ic_baseline_star_rate_24" />
+
+         <ImageView
+             android:id="@+id/second_start"
+             android:layout_width="13dp"
+             android:layout_height="match_parent"
+             android:src="@drawable/ic_baseline_star_rate_24" />
+
+         <ImageView
+             android:id="@+id/third_start"
+             android:layout_width="13dp"
+             android:layout_height="18dp"
+             android:src="@drawable/ic_baseline_star_rate_24" />
+
+         <ImageView
+             android:id="@+id/fourth_start"
+             android:layout_width="13dp"
+             android:layout_height="18dp"
+             android:src="@drawable/ic_baseline_star_rate_24" />
+
+         <ImageView
+             android:id="@+id/fifth_start"
+             android:layout_width="13dp"
+             android:layout_height="18dp"
+             android:src="@drawable/ic_baseline_star_rate_24" />
+     </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln_star"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/img_avatar_comment"
+            android:justificationMode="inter_word"
+            android:text="This is the best cake I have eatten This is the best cake I have eatten This is the best cake I have eatten" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

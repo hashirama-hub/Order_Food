@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805324399606",
+    "project_id": "simple-bakery-642fd",
+    "storage_bucket": "simple-bakery-642fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805324399606:android:71f88143f739208c859dd7",
+        "android_client_info": {
+          "package_name": "com.example.simplecake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805324399606-ghdcsn9n2vhl79h1a9p71n45okjpn4k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiB51KWaivmaeqz34wtFlD5ZG2q9x3S0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805324399606-ghdcsn9n2vhl79h1a9p71n45okjpn4k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

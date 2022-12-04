@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="false"
+    tools:context=".Activity.CartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppBarLayout"
+        android:background="@color/color_main"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_main"
+            android:textAlignment="center"
+            app:title="@string/app_name"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+            >
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radius_viewpager_details"
+        android:orientation="vertical">
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Items Info"
+               android:textColor="@color/black"
+               android:padding="15dp"
+               android:textSize="18dp"
+
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_centerVertical="true"
+               android:text="Delete"
+               android:textColor="@color/color_bottom_nav_selected"
+               android:textSize="15dp"
+               android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+               android:drawablePadding="10dp"
+               android:layout_marginEnd="10dp"
+               />
+       </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+    </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_drop"
+        android:orientation="vertical" />
+    <RelativeLayout
+        android:id="@+id/rlt_voucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rlt_checkout"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Voucher"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/choose_voucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your Voucher"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlt_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btn_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@color/color_main"
+            android:padding="15dp"
+            android:text="Check out" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/tv_total_price"
+            android:text="Total price" />
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/btn_checkout"
+            android:text="580.000đ"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</RelativeLayout>

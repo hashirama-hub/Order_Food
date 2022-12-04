@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ListCakeAtivity"
+    android:background="@color/white"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/AppBarLayout"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_main"
+            android:textAlignment="center"
+            app:title="@string/app_name"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_list_cake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/AppBarLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:drawableStart="@drawable/ic_baseline_search_24"
+                    android:hint="Search..."
+                    android:padding="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/rcv_cakeList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

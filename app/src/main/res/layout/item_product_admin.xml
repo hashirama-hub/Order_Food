@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:background="@color/color_main"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <ImageView
+            android:id="@+id/img_cake_itemt"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/classic_signature" />
+
+
+
+        <LinearLayout
+            android:id="@+id/ln_info_cake"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+
+            android:layout_toEndOf="@+id/img_cake_itemt"
+            android:layout_toStartOf="@+id/ln_button"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name_cake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Classic Signature"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tv_categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Category 1"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:id="@+id/tv_desc_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Bring a beautiful gift box brimming with dessert bars and cookies to your next celebration. Everyone will enjoy snacking on bakery favorites like raspberry galettes, white chocolate raspberry dessert bars, and snickerdoodles. It's a delightful assortment to make your get-togethers extra sweet." />
+
+            <TextView
+                android:id="@+id/tv_price_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="40.000 đ"
+                android:textColor="@color/colorBottomNavigationPrimary"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#20552B"
+                android:src="@drawable/ic_baseline_edit_note_24"
+
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#B31212"
+                android:src="@drawable/ic_baseline_delete_forever_24"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

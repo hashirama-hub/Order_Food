@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:background="#FAFAFA"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_cake_checkout"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@drawable/classic_signature" />
+        <TextView
+            android:id="@+id/name_cake_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_cake_checkout"
+            android:text="Classic Signature"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+        <TextView
+            android:id="@+id/name_category_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_cake_checkout"
+            android:text="Classic Signature"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="15dp"
+            android:textStyle="italic"
+            android:layout_below="@id/name_cake_checkout"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+        <TextView
+            android:id="@+id/price_cake_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_cake_checkout"
+            android:text="400.000đ"
+            android:layout_marginStart="15dp"
+            android:layout_below="@id/name_category_checkout"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/qualities_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_category_checkout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+
+            android:text="x2"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

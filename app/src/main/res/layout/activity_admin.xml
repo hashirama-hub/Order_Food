@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AdminActivity">
+     <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_main"
+                android:textAlignment="center"
+
+                app:subtitle="SB Management"
+                app:title="Dashboard">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        android:background="@color/color_main_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:background="@color/color_main_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@color/color_main_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_wave__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <LinearLayout
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_products"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="15dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Products \n Management"
+                android:gravity="center"
+                android:drawablePadding="20dp"
+                android:textSize="20dp"
+                android:drawableTop="@drawable/ic_baseline_cake_24"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_categories"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="15dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categories \n Management"
+                android:gravity="center"
+                android:drawablePadding="20dp"
+                android:textSize="20dp"
+                android:drawableTop="@drawable/ic_newfeed"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_2"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_1">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_orders"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/ic_order"
+                android:drawablePadding="20dp"
+                android:gravity="center"
+                android:text="Orders \n Management"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_financial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/ic_baseline_attach_money_24"
+                android:drawablePadding="20dp"
+                android:gravity="center"
+                android:text="Financial \n Management"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+         <com.google.android.material.navigation.NavigationView
+             android:id="@+id/navigation_view"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_gravity="start"
+             app:headerLayout="@layout/layout_header_nav"
+             app:menu="@menu/admin_menu"
+             >
+         </com.google.android.material.navigation.NavigationView>
+     </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

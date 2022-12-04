@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/ic_home" />
+        <item android:id="@+id/nav_products" android:title="Products" android:icon="@drawable/ic_baseline_cake_24" />
+        <item android:id="@+id/nav_categories" android:title="Categories" android:icon="@drawable/ic_newfeed" />
+        <item android:id="@+id/nav_orders" android:title="Orders" android:icon="@drawable/ic_order" />
+        <item android:id="@+id/nav_financial" android:title="Financial" android:icon="@drawable/ic_baseline_attach_money_24" />
+    </group>
+    <item android:id="@+id/nav_account" android:title="Admin">
+        <menu>
+                <item android:id="@+id/nav_signout" android:title="Sign out" android:icon="@drawable/ic_sign_out" />
+        </menu>
+    </item>
+</menu>

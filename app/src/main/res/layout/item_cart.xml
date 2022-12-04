@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="15dp">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#F82616"
+        >
+        <ImageView
+            android:id="@+id/img_remove"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_baseline_remove_shopping_cart_24"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_toStartOf="@id/img_remove"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+    <ImageView
+        android:id="@+id/img_cake_cart"
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:src="@drawable/classic_signature"
+        />
+
+        <TextView
+            android:id="@+id/tv_name_cake_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/img_cake_cart"
+            android:text="Classic Signature"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tv_price_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_cake_cart"
+            android:layout_toEndOf="@id/img_cake_cart"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:text="460.000đ"
+            android:textSize="18dp"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_cake_cart"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_price_cart"
+            >
+            <Button
+                android:id="@+id/btn_plus"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/et_qualities"
+                android:background="@drawable/border_plus_minus"
+                android:text="+"
+                android:textColor="#999"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_qualities"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/btn_minus"
+                android:background="@drawable/border_qualities"
+                android:inputType="number"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_minus"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_plus_minus"
+                android:text="-"
+                android:textColor="#999"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_btn_login.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_details.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_indicator.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_pink_conner_16_top_left_right.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_white_conner_10.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_white_conner_16.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/bg_yellow_conner_16_top_left_right.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/border_btn_cart.xml" value="0.28425925925925927" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/border_comment.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/border_contact.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/border_plus_minus.xml" value="0.28425925925925927" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/border_qualities.xml" value="0.28425925925925927" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/count.xml" value="0.13958333333333334" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/gradient_background.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_remove_shopping_cart_24.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_star_half_24.xml" value="0.2833333333333333" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_baseline_star_unrate_24.xml" value="0.2833333333333333" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_cart.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_google_background.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_wave__1_.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/ic_wave__3_.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/radius_viewpager_details.xml" value="0.2846153846153846" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/round_border.xml" value="0.2890625" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/drawable/shadow_drop.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_admin.xml" value="0.21467391304347827" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_cake_details.xml" value="0.2097345132743363" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_cart.xml" value="0.26811594202898553" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_checkout.xml" value="0.26811594202898553" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_comment.xml" value="0.24456521739130435" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_google_map.xml" value="0.25905797101449274" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_list_cake_ativity.xml" value="0.22" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_list_categories.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_list_product.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_login.xml" value="0.25885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_main.xml" value="0.19882246376811594" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_order.xml" value="0.25905797101449274" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_product.xml" value="0.14166666666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_registor.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/bg_indicator.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/border_comment.xml" value="0.14270833333333333" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/border_contacts.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/custom_notifcation_layout.xml" value="0.26358695652173914" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_cancled.xml" value="0.1234375" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_change_password.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_favorite.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_home.xml" value="0.21652892561983472" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_insert_product.xml" value="0.14166666666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_list_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_list_product.xml" value="0.14166666666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_me.xml" value="0.25905797101449274" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_my_profile.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_rating.xml" value="0.25905797101449274" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_recivied.xml" value="0.13645833333333332" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/fragment_waiting.xml" value="0.25905797101449274" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_cake.xml" value="0.5102239532619279" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_canceled.xml" value="0.24456521739130435" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_cart.xml" value="0.26811594202898553" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_category.xml" value="0.33" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_checkout.xml" value="0.26811594202898553" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_comment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_list_categories_fragment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_list_photo_details.xml" value="0.2" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_listcategory.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_photo_details.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_product_admin.xml" value="0.33" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_recived.xml" value="0.13645833333333332" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_review.xml" value="0.27219202898550726" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_slider.xml" value="0.25885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/item_waiting.xml" value="0.22" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_cake_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_checkout_successfully.xml" value="0.25" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_details.xml" value="0.14270833333333333" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_dialog.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_dialog_forgot_pass.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/layout/layout_header_nav.xml" value="0.25885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/menu/admin_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/menu/bottom_nav.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/menu/menu_nav.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/menu/menu_toolbar.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/menu/toolbar_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code Androi/SimpleCake/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15885416666666666" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_checkout.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_google_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_list_cake_ativity.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_list_categories.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_order.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_registor.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/custom_notifcation_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_cancled.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_change_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_favorite.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_insert_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_list_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_list_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_me.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_my_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_recivied.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/fragment_waiting.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_cake.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_canceled.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_checkout.xml" value="0.264" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_list_categories_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_list_photo_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_listcategory.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_photo_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_product_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_recived.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_review.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/item_waiting.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/layout_cake_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/layout_checkout_successfully.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/layout_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/layout_dialog_forgot_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/SimpleCake/app/src/main/res/layout/layout_header_nav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

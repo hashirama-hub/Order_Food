@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="260dp">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slide1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_drop"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="1"
+            android:text="Bakery Favourite"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/desc_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_slide"
+            android:paddingStart="10dp"
+
+            android:shadowColor="#000000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="1"
+            android:text="Add a little sweetness to any day with comforting \nand delicious baked goods straight from the bakery."
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:text="VIEW ALL"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

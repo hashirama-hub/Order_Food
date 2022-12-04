@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".Activity.Cake_Details_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppBarLayout"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_main"
+            android:textAlignment="center"
+            app:title="@string/app_name"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+            >
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_viewpager_details"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewpager2"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0">
+
+                    </androidx.viewpager2.widget.ViewPager2>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/shadow_drop"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/viewpager2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/ic_wave__3_"
+                        app:layout_constraintBottom_toBottomOf="@+id/viewpager2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <TextView
+                            android:id="@+id/tv_price_item_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="40.000 đ"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_price_item_details"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/first_start"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:src="@drawable/ic_baseline_star_rate_24" />
+
+                            <ImageView
+                                android:id="@+id/second_start"
+                                android:layout_width="18dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_star_rate_24" />
+
+                            <ImageView
+                                android:id="@+id/third_start"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:src="@drawable/ic_baseline_star_rate_24" />
+
+                            <ImageView
+                                android:id="@+id/fourth_start"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:src="@drawable/ic_baseline_star_rate_24" />
+
+                            <ImageView
+                                android:id="@+id/fifth_start"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:src="@drawable/ic_baseline_star_rate_24" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/btn_share"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/bg_details"
+                            android:elevation="5dp"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_baseline_share_24" />
+
+                        <ImageView
+                            android:id="@+id/btn_favourite"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="15dp"
+                            android:layout_toStartOf="@+id/btn_share"
+                            android:background="@drawable/bg_details"
+                            android:elevation="05dp"
+                            android:padding="10dp"
+
+                            android:src="@drawable/ic_favorite" />
+                    </RelativeLayout>
+                    <TextView
+                        android:id="@+id/tv_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.5/5"
+                        android:drawablePadding="5dp"
+                        android:layout_marginStart="15dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_quantity_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 reviewers"
+                        android:drawablePadding="5dp"
+                        android:layout_marginStart="15dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_name_cake_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="hihihihihi"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcv_photo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_desc_details"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+
+                        android:layout_marginEnd="15dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:justificationMode="inter_word"
+                        android:text="Whether as a dessert to top off a meal or as a delightful midday snack, a charming assortment of gourmet cookies is sure to please. Our Classic Signature Cookie Gift Basket presents a wide variety of flavors, ranging from well-loved favorites like chocolate chocolate chunk and apple raisin to the contemporary tastes of sweet and tart white chocolate raspberry and blackberry galettes. No matter the palate, this gift has something everyone will enjoy."
+                        android:textColor="#aaa"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="Evaluate"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <RadioGroup
+                        android:id="@+id/tip_options"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="15dp">
+
+
+                        <RadioButton
+                            android:id="@+id/one_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/ic_baseline_star_rate_24"
+                            android:text="1/5" />
+
+
+                        <RadioButton
+                            android:id="@+id/two_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/ic_baseline_star_rate_24"
+                            android:text="2/5" />
+
+
+                        <RadioButton
+                            android:id="@+id/three_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/ic_baseline_star_rate_24"
+                            android:text="3/5" />
+
+
+                        <RadioButton
+                            android:id="@+id/four_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/ic_baseline_star_rate_24"
+                            android:text="4/5" />
+
+
+                        <RadioButton
+                            android:id="@+id/five_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/ic_baseline_star_rate_24"
+                            android:text="5/5" />
+
+
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/et_comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border_comment"
+                        android:hint="Comment"
+                        android:lines="3"
+                        android:padding="10dp"
+                        android:paddingStart="20dp" />
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bg_details"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="Submit a review"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/empty_notfication"
+                            android:textAlignment="center"
+                            android:textStyle="italic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcv_comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ln_viewall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:text="View all"
+
+                            />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="You also like them"
+                        android:textSize="20dp"
+                        android:textColor="@color/black" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcv_cakes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_drop"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/et_qualities"
+            android:background="@drawable/border_plus_minus"
+            android:text="+"
+            android:textColor="#999"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_qualities"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_minus"
+            android:background="@drawable/border_qualities"
+            android:inputType="number"
+            android:text="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_marginStart="5dp"
+            android:id="@+id/btn_minus"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/border_plus_minus"
+            android:text="-"
+            android:textColor="#999"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/tv_price_qualities"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/add_to_cart"
+            android:background="@drawable/border_price"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="490.000đ"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_btn_cart"
+            android:drawableStart="@drawable/ic_baseline_add_shopping_cart_24"
+            android:drawablePadding="10dp"
+            android:elevation="0dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Add"
+            android:textAlignment="center"
+            android:textSize="15dp"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

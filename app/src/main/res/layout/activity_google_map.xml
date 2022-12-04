@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.GoogleMapActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="6dp"
+        android:layout_margin="15dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mapIP"
+                android:layout_centerInParent="true"
+                android:src="@drawable/pinlocation"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="15dp"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:text="Hello"
+            />
+         <Button
+             android:id="@+id/btn_oke"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Confirm"
+             android:layout_above="@+id/tvAdd"
+             android:layout_centerHorizontal="true"
+             android:background="@color/color_main_login"
+             android:layout_marginBottom="10dp"
+             android:textSize="13dp"
+
+             />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
